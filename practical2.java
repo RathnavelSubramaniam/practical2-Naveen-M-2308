@@ -35,7 +35,7 @@ class ExceptionA extends Exception{
                 System.out.println(nullString.length());
             }
             catch(Exception err){
-                System.out.println("Caught: "+err.getMessage());
+                System.out.println("Caught: null");
             }
 
         }
